@@ -51,4 +51,5 @@ export const siteConfig: SiteConfig = {
         images: [`${baseSiteConfig.url}/og.png`],
         creator: baseSiteConfig.creator,
     },
+    // 不需要再提供 headerLinks, footerLinks, footerProducts
 }
