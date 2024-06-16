@@ -106,6 +106,37 @@ a {
     text-decoration: underline;
 }
 
+/*FAQ*/
+.bg-faq {
+    background-image: url(/images/overlay-3.png);
+}
+
+.title-box .sub-title {
+    background: rgba(33, 90, 231, 0.2);
+    padding: 7px 22px;
+    display: inline-block;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.title-box .title-desc {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.text-primary {
+    color: #215ae7 !important;
+}
+.f-13 {
+    font-size: 13px;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+
+
+
 /*footer*/
 .bg-footer {
     padding-top: 120px;
@@ -542,9 +573,6 @@ body[data-layout-mode=dark] .navbar-brand .logo-light {
         padding: 10px 30px;
     }
 }
-.text-primary {
-    color: #0076a3 !important;
-}
 
 .bg-primary {
     background-color: #0076a3 !important;
@@ -955,9 +983,6 @@ html {
     background-color: rgba(0, 118, 163, 0.2) !important;
 }
 
-.text-primary {
-    color: #0076a3 !important;
-}
 
 .border-primary {
     border-color: #0076a3 !important;
