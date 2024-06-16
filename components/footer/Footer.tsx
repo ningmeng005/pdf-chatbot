@@ -45,10 +45,10 @@ const FooterAboutNavLinks = [
     },
 ];
 
-const Footer = ({locale, FooterLocale}: { locale: any; FooterLocale: any }) => {
+const Footer = () => {
     const d = new Date();
     const currentYear = d.getFullYear();
-    const {authors} = siteConfig;
+    const { authors } = siteConfig;
 
     return (
         <>
