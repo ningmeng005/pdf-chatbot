@@ -41,6 +41,9 @@ export default async function RootLayout({
 }) {
     return (
         <html lang={(lang && lang[0]) || defaultLocale} suppressHydrationWarning>
+        <head>
+            
+        </head>
         <head/>
         <body
             className={cn(
@@ -55,7 +58,7 @@ export default async function RootLayout({
         >
             <Header/>
             <main className="flex flex-col items-center py-6">{children}</main>
-            <Footer/>
+            <Footer />
             <Analytics/>
         </ThemeProvider>
         {process.env.NODE_ENV === "development" ? (

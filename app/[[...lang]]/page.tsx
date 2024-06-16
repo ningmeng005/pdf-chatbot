@@ -23,9 +23,9 @@ export default async function LangHome({
     <>
       {/* Hero Section */}
       <Hero locale={dict.Hero} CTALocale={dict.CTAButton} />
-      {/*<SocialProof locale={dict.SocialProof} />*/}
+      <SocialProof locale={dict.SocialProof} />
       {/* display technology stack, partners, project honors, etc. */}
-      {/*<ScrollingLogos />*/}
+      <ScrollingLogos />
 
       {/* USP (Unique Selling Proposition) */}
       {/*<Feature id="Features" locale={dict.Feature} langName={langName} />*/}
